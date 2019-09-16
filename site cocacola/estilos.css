@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.cabecalho{background-color: red; width: 100%; height: 15px;}
+
+.coluna-logo{background-color: red;min-height: 200px;}
+
+.coluna-carrosel{background-color: red;min-height: 200px;}
+
+.coluna-branca{ min-height: 200px;}
+
+.coluna-nav{ min-height: 200px;}
+
+.coluna-card{min-height: 200px;}
+
+.coluna-card2{min-height: 200px;}
+
+.coluna-news{ background:blue; min-height: 200px;}
+
+.rodape{background-color: red;width:100%;height: 20px;}
+
+@media only screen and (max-width: 480px) {
+	.coluna-carrosel{ 
+		display: none; 
+	} 
+}
+	
+@media only screen and (max-width: 480px) {
+		.form-group{ 
+			display: none; 
+		} 
+	}
+		
+	@media only screen and (max-width: 480px) {
+			.coluna-card2{ 
+				display: none; 
+			} 
+		}
+		@media only screen and (max-width: 480px) {
+			.dropdown-menu{ 
+				display: none; 
+			} 
+		}
